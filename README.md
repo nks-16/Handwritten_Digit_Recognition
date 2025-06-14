@@ -1,11 +1,11 @@
 
-# 🧠 MNIST Handwritten Digit Classifier from Scratch (NumPy Only)
+#  MNIST Handwritten Digit Classifier from Scratch (NumPy Only)
 
 This project implements a basic **Neural Network** from scratch using only **NumPy**, to classify handwritten digits from the **MNIST** dataset. No external machine learning libraries (like TensorFlow, Keras, or PyTorch) are used — making it ideal for learning how neural networks work under the hood.
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 The dataset used is the [MNIST handwritten digit dataset](https://www.kaggle.com/datasets/oddrationale/mnist-in-csv), specifically the file:
 
@@ -17,7 +17,7 @@ Ensure this file is in your working directory (e.g., `/content/sample_data/` for
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 This project:
 
@@ -29,7 +29,7 @@ This project:
 
 ---
 
-## 🧮 Network Architecture
+##  Network Architecture
 
 - **Input Layer:** 784 nodes (28×28 pixels per image)
 - **Hidden Layer:** 10 nodes (ReLU activation)
@@ -46,7 +46,7 @@ A2 = Softmax(Z2)
 
 ---
 
-## 🛠️ Dependencies
+##  Dependencies
 
 Install missing packages using:
 
@@ -62,7 +62,7 @@ Required libraries:
 
 ---
 
-## 📈 Training
+##  Training
 
 Training is done using the following call:
 
@@ -75,7 +75,7 @@ W1, b1, W2, b2 = gradient_descent(X_train, Y_train, alpha=0.1, iterations=500)
 
 ---
 
-## 🔍 Testing & Prediction
+##  Testing & Prediction
 
 You can visualize and test predictions using:
 
@@ -90,7 +90,7 @@ This displays:
 
 ---
 
-## 📊 Sample Output (Accuracy Log)
+##  Sample Output (Accuracy Log)
 
 ```
 Iteration:   0  Accuracy: ~7.8%
@@ -102,7 +102,7 @@ Iteration: 490  Accuracy: ~84.6%
 
 ---
 
-## 📈 Accuracy Plot
+##  Accuracy Plot
 
 You can visualize model improvement using:
 
@@ -117,7 +117,7 @@ plt.show()
 
 ---
 
-## 📌 To-Do / Improvements
+##  To-Do / Improvements
 
 - Add support for testing on `mnist_test.csv`
 - Save/load trained weights for later use
@@ -126,19 +126,19 @@ plt.show()
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Pull requests are welcome. If you have suggestions for improvement, feel free to open an issue or submit a PR.
 
 ---
 
-## 📜 License
+##  License
 
 This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-## 🙌 Acknowledgments
+##  Acknowledgments
 
 - [Kaggle MNIST CSV Dataset](https://www.kaggle.com/datasets/oddrationale/mnist-in-csv)
 - The Python & ML open-source community 💙
